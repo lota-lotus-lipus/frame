@@ -1,4 +1,4 @@
-import { generate as g } from "random-words";
+import { generate as g } from "https://cdn.skypack.dev/random-words";
 
 function _() {
   const a = document.getElementById('msBingFrame');
