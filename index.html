@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<body>
+    <script>
+        const iframe = document.createElement('iframe');
+        iframe.id = 'msBingFrame';
+        iframe.width = '100%';
+        iframe.height = '100%';
+        iframe.sandbox = 'allow-top-navigation-by-user-activation allow-scripts allow-same-origin';
+    
+        document.body.appendChild(iframe);
+    </script>
+  <script type="module" src="index.ts"></script>
+</body>
+</html>
